@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layouts/main_layout :: head(title = 'todo - app')}">
+</head>
+<body>
+
+<nav th:replace="~{layouts/main_layout :: title-section}"></nav>
+
+<div class="new-content">
+    new content goes here...
+</div>
+
+<div th:replace="~{layouts/main_layout :: footer}"></div>
+
+</body>
+</html>
