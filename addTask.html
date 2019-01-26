@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Title goes here</title>
+    <title>Add task</title>
 
 
     <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
@@ -75,13 +75,36 @@
             <div class="container">
                 <div class="row justify-content-center">
 
+                    <div class="col-md-6 adding-form">
+                        <h3><strong>Add new task</strong></h3>
+                        <div class="form-group">
+                            <label><i class="fas fa-pen"></i>    Title</label>
+                            <input type="text" class="form-control" placeholder="Enter title">
+                        </div>
 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget urna ullamcorper, tempor neque vitae, tincidunt enim. Curabitur aliquet neque quis dui hendrerit eleifend. Donec ac elementum libero. Proin rhoncus vehicula ipsum, non pharetra justo fringilla in. Nunc sit amet euismod nisl, mattis aliquet odio. Integer posuere feugiat elit. Nam imperdiet, purus id tristique pulvinar, turpis turpis elementum elit, vitae aliquam diam sapien in sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non diam nisl. Donec egestas non mauris at euismod. Nulla orci purus, sodales id rhoncus non, varius eu nisi. Curabitur finibus tincidunt sodales. Suspendisse eget tortor facilisis, hendrerit eros sollicitudin, interdum orci. Praesent vitae quam posuere, eleifend turpis luctus, tristique urna. Integer tincidunt quam quis quam mollis scelerisque. Duis lorem nisi, pulvinar a arcu eget, egestas vulputate sapien. Proin a ipsum luctus, porttitor tellus vel, porta elit. Integer quis dolor eu tellus rhoncus gravida. Sed elit ipsum, faucibus ac tristique eu, dignissim ut mauris. Maecenas consectetur convallis porta. Morbi tempor gravida lacus sit amet fringilla. Phasellus nisi nisi, accumsan vel arcu non, ornare varius erat. Sed bibendum elit a eros laoreet laoreet. Phasellus et odio sapien. Suspendisse ac dolor id leo euismod posuere. In vestibulum, est et auctor ultricies, sem nisi imperdiet libero, ac pharetra justo nisi non urna. Suspendisse maximus pellentesque lectus ac laoreet. Etiam leo dolor, luctus non elit eu, aliquam condimentum nunc. Mauris pretium sapien id sem ullamcorper, eu semper massa mollis. Sed non facilisis diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam facilisis, nulla sit amet faucibus fringilla, neque neque interdum felis, euismod efficitur leo augue ac ipsum. In malesuada convallis lobortis. Curabitur vel elementum nibh. Suspendisse sagittis accumsan risus ut semper. Morbi sollicitudin nec massa tincidunt aliquet. Cras nec enim vitae lacus fringilla imperdiet. Sed sed velit vel ex pretium molestie ac id tellus. Nulla erat nisl, interdum aliquet dictum non, placerat vel quam. Aliquam interdum auctor dolor nec consectetur. Pellentesque condimentum lacus nisi, et molestie enim tempor non. In scelerisque ipsum ac est volutpat pretium. Quisque elementum metus ut sapien suscipit porttitor. Curabitur consequat odio a fringilla accumsan. Curabitur nec arcu vitae risus pulvinar suscipit eu non quam. Morbi tincidunt luctus lectus, at maximus diam accumsan accumsan. Ut vestibulum massa eget augue venenatis scelerisque. Ut ac sem id purus pellentesque egestas. Duis rutrum est lacinia, feugiat massa sed, placerat justo. Aliquam lacinia quis velit vel varius. Nullam id aliquam tellus. Etiam sit amet varius quam, sit amet egestas sem. Phasellus ipsum neque, sodales non bibendum sed, euismod ut odio. Nulla placerat eu eros et mattis. Vivamus vitae placerat magna. Ut eget ornare felis. In ornare et nunc ut dictum. Suspendisse porttitor, mauris vitae tristique ultricies, odio ipsum tempor purus, eget egestas sapien dolor in mauris. Duis in felis vel massa pharetra finibus. Sed tempor aliquet nibh sed ultricies. In et leo eu purus interdum dapibus euismod nec nisi. Sed id risus condimentum, suscipit tortor vitae, semper felis. Mauris aliquet elit quis risus tempor, nec laoreet eros accumsan. Donec quis consectetur ligula, sit amet euismod sapien.
+                        <div class="form-group">
+                            <label><i class="fas fa-align-justify"></i>  Description</label>
+                            <textarea class="form-control" rows="3" placeholder="Enter description"></textarea>
+                        </div>
 
+
+
+                        <div class="col-auto">
+                            <label><i class="fas fa-weight-hanging"></i> Task Weight</label>
+                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                    <option value="1">Task is medium important</option>
+                                    <option value="2">Task is medium important</option>          
+                                    <option value="3">Task is not important</option>
+                            </select>
+                        </div>
+
+                        <hr class="hr-add-task">
+                        <button type="button" class="btn btn-lg btn-done">
+                        <i class="far fa-check-square"></i> Add 
+                    </button>
+                    </div>
                 </div>
-
             </div>
-
         </section>
 
 
